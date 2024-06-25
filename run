@@ -1,0 +1,7 @@
+#!/bin/bash
+kill -9 $(lsof -t -i:3000)
+
+gnome-terminal --tab -- bash -c "cd B*; node app.js; exec bash"
+
+gnome-terminal --tab -- bash -c "cd ~/Music/lab/Bus_Station_System/Frontend/; npm run preview; exec bash"
+

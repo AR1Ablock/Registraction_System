@@ -1,0 +1,77 @@
+::placeholder {
+    font-family: sans-serif;
+  }
+  
+  .error {
+    color: red;
+    font-family: sans-serif;
+    font-size: 2vmin;
+    font-weight: bold;
+    padding: 2vmin 0 0 0;
+  }
+  
+  .btn {
+    width: 25%;
+    border: none;
+    font-size: 2vmin;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+    border-radius: 10vmin;
+    padding: 1.5vmin 1vmin;
+    background-color: rgb(0, 123, 255);
+    color: white;
+    cursor: pointer;
+  }
+  
+  .btn:hover {
+    background-color: rgb(106, 0, 255);
+    transform: scale(1.06);
+    transition-timing-function: ease-in-out;
+    transition: all .5s;
+  }
+  
+  .btn:active {
+    transform: scale(.8);
+    transition-timing-function: ease-in-out;
+    transition: all .4s;
+  }
+  
+  .heading {
+    color: rgb(0, 123, 255);
+    font-size: 4vmin;
+    font-family: sans-serif;
+    font-style: italic;
+    border: none;
+  }
+  
+  .frm {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    row-gap: 5vmin;
+  }
+  
+  .frm * {
+    flex: 1;
+  }
+  
+  .inpt {
+    width: 50%;
+    font-size: 2.5vmin;
+    font-weight: bold;
+    border: none;
+    color: rgb(0, 110, 255);
+    outline: none;
+    background-color: rgb(238, 238, 238);
+    padding: 1.5vmin;
+    border-radius: 4vmin;
+    border-left: 1.5vmin solid rgb(0, 123, 255);
+  }
+  
+  .inpt:hover{
+    scale: 1.05;
+    transition-timing-function: ease;
+    transition: all .5s;
+  }

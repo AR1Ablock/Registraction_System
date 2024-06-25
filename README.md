@@ -4,11 +4,13 @@
 1: NodeJs.
 2: VueJS.
 
+
 **Run:**
 1: Go to Backend Folder and run app.js with node.
 **node app.js**
 2: Go to Frontend Folder and type command.
 **npm run preview**
+
 
 **Features:**
 1: Create Account.

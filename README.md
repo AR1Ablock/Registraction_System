@@ -1,4 +1,4 @@
-# Bus Station Ticketing App
+# Registration Project
 
 This is a simple bus station ticketing app with essential features. It allows users to create accounts, book tickets, and view their bookings. The app is built using Node.js for the backend and Vue.js for the frontend.
 
@@ -21,7 +21,7 @@ This is a simple bus station ticketing app with essential features. It allows us
 - Log in securely.
 
 2. **Booking:**
-- Register bookings for bus tickets.
+- Register bookings.
 - View existing bookings.
 
 3. **Authorization:**

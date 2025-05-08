@@ -11,7 +11,7 @@ This is a simple bus station ticketing app with essential features. It allows us
 
 1. Clone this repository.
 2. Navigate to the `backend` folder and run the following command: node app.js
-3. 3. Open a new terminal window, navigate to the `frontend` folder, and run: npm run preview
+3. Open a new terminal window, navigate to the `frontend` folder, and run: npm run preview
 
 
 ## Features
